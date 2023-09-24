@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Figtree:wght@500&family=Quicksand:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Home */
+
+.home-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav {
+  padding: 0 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.web-logo {
+  height: 70px;
+  width: 70px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  padding-left: 3vh;
+}
+
+.name {
+  font-size: 3vh;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 2vw;
+  font-size: 3vh;
+}
+
+a:hover {
+  color: #1c6758;
+  text-decoration: underline;
+}
+
+.user-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(-60%, -30%);
+}
+.quote-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+  padding-left: 12vw;
+  padding-right: 12vw;
+}
+
+.quote {
+  font-size: 2vw;
+  text-align: center;
+}
+
+.btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8vh;
+}
+
+.btn {
+  border: 1px solid white;
+  color: white;
+  background-color: #1c6758;
+  padding: 2vh;
+  border-radius: 5vh;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+}
+
+.shape {
+  height: 15vw;
+  width: 15vw;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #1c6758;
+  border-top-left-radius: 100%;
+}
+
+/* FAQs */
+
+.faq-container {
+  font-family: "Figtree", sans-serif;
+  padding: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  padding: 1vw;
+  font-size: 5vh;
+  color: #1c6758;
+}
+
+.faq-img {
+  height: 40px;
+  width: 40px;
+}
+
+.accordion {
+  width: 70vw;
+  margin-top: 10px;
+}
+
+.accordion-item {
+  margin-bottom: 1vw;
+}
+
+.accordion-title {
+  font-size: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: rgb(194, 247, 207);
+}
+
+.accordion-title:hover {
+  background-color: #1c6758;
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  background-color: whitesmoke;
+}
+
+@media screen and (max-width: 700px) {
+  .faq-container {
+    font-size: 18px;
+  }
+
+  .accordion {
+    width: 90%;
+  }
+}
