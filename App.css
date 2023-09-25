@@ -77,17 +77,18 @@ a:hover {
   height: 460px;
   transform: translate(-60%, -30%);
 }
+
 .quote-div {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30vh;
+  margin-top: 25vh;
   padding-left: 12vw;
   padding-right: 12vw;
 }
 
 .quote {
-  font-size: 2vw;
+  font-size: 2.5vw;
   text-align: center;
 }
 
@@ -99,13 +100,19 @@ a:hover {
 }
 
 .btn {
-  border: 1px solid white;
+  border: 1px solid #1c6758;
   color: white;
   background-color: #1c6758;
-  padding: 2vh;
+  padding: 2.5vh;
   border-radius: 5vh;
   cursor: pointer;
   font-family: "Quicksand", sans-serif;
+  font-size: 2vh;
+}
+
+.btn:hover {
+  color: #1c6758;
+  background-color: white;
 }
 
 .shape {
